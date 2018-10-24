@@ -14,6 +14,8 @@
 		0A2350242180CFFA006ED1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2350222180CFFA006ED1C2 /* LaunchScreen.storyboard */; };
 		0A23502F2180CFFA006ED1C2 /* data_test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23502E2180CFFA006ED1C2 /* data_test2Tests.swift */; };
 		0A23503A2180CFFA006ED1C2 /* data_test2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2350392180CFFA006ED1C2 /* data_test2UITests.swift */; };
+		0A2350482180D010006ED1C2 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A2350472180D010006ED1C2 /* book.xml */; };
+		0A23504A2180D096006ED1C2 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2350492180D096006ED1C2 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0A2350352180CFFA006ED1C2 /* data_test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = data_test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2350392180CFFA006ED1C2 /* data_test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_test2UITests.swift; sourceTree = "<group>"; };
 		0A23503B2180CFFA006ED1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2350472180D010006ED1C2 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		0A2350492180D096006ED1C2 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0A2350182180CFFA006ED1C2 /* data_test2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A2350492180D096006ED1C2 /* BookData.swift */,
+				0A2350472180D010006ED1C2 /* book.xml */,
 				0A2350192180CFFA006ED1C2 /* AppDelegate.swift */,
 				0A23501B2180CFFA006ED1C2 /* ViewController.swift */,
 				0A23501D2180CFFA006ED1C2 /* Main.storyboard */,
@@ -234,6 +240,7 @@
 			files = (
 				0A2350242180CFFA006ED1C2 /* LaunchScreen.storyboard in Resources */,
 				0A2350212180CFFA006ED1C2 /* Assets.xcassets in Resources */,
+				0A2350482180D010006ED1C2 /* book.xml in Resources */,
 				0A23501F2180CFFA006ED1C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				0A23501C2180CFFA006ED1C2 /* ViewController.swift in Sources */,
 				0A23501A2180CFFA006ED1C2 /* AppDelegate.swift in Sources */,
+				0A23504A2180D096006ED1C2 /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
